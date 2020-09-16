@@ -1,0 +1,20 @@
+{
+  "name": "visserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx tsc && node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite": "^4.0.14",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/sqlite3": "^3.1.6"
+  }
+}
